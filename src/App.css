@@ -1,38 +1,71 @@
 .App {
-  text-align: center;
+  color:white;
+  background-color: rgb(95, 68, 95);
+  
+}
+.nav{
+  background-color: rgb(100, 51, 100);
+  padding: 15px;
+}
+:any-link{
+  color:white;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.reg{
+  height:100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: -2rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.signup{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 9rem;  
+  
+}
+.form-wrapper-signup{
+ 
+  margin-top: -29rem;
+
+}
+Form{
+  background-color: rgb(211, 160, 211);
+  padding: 20px;
+}
+.form:hover{
+  transform: scale(1.02);
+  background-color: rgb(146, 103, 146);
+}
+img{
+  width:200px;
+  height:650px;
+
+}
+.header{
+  text-align: center;
+  color: rgb(91, 21, 91);
+}
+.text{
+  color: rgb(91, 21, 91);
+
+}
+.submit{
+  transform: translateX(150%);
+  border-color: rgb(91, 21, 91);
+  background-color: rgb(91, 21, 91);
+
+}
+.submit:hover{
+  background-color: rgb(175, 99, 175);
+  border-color:  rgb(175, 99, 175);
 }
